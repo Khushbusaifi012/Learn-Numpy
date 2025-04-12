@@ -2,14 +2,14 @@ import numpy as np
 
 # NUMPY ARRAYS VS PYTHON LISTS;;
 # SPEED AND LIST TIME EXECUTION;;
-# a=[i for i in range(100000)]
-# b=[i for i in range(100000,200000)]
-# c=[]
-# import time
-# start=time.time()
-# for i in range(len(a)):
-#     c.append(a[i]+b[i])
-# print(time.time()-start)
+a=[i for i in range(100000)]
+b=[i for i in range(100000,200000)]
+c=[]
+import time
+start=time.time()
+for i in range(len(a)):
+    c.append(a[i]+b[i])
+print(time.time()-start)
 
 # NUMPY EXECUTION ACCORDING TO TIME;;
 # a=np.arange(100000)
