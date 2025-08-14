@@ -78,7 +78,7 @@ a=np.arange(12).reshape(3,4)
 b=np.arange(3)
 print(a)
 print(b)   
-print(a+b)    #this will give us error
+# print(a+b)    #this will give us error
 
 a=np.arange(3).reshape(1,3)
 b=np.arange(3).reshape(3,1)
@@ -120,28 +120,28 @@ plt.ylabel("y-axis")
 print(plt.show())
 
 # 2.y*x^2;;PARABOLA
-x=np.linspace(-10,10,100)
-y=x**2
-print(plt.plot(x,y))
-plt.title("Parabola Graph")
-plt.xlabel("x-axis")
-plt.ylabel("y-axis")
-print(plt.show())
+# x=np.linspace(-10,10,100)
+# y=x**2
+# print(plt.plot(x,y))
+# plt.title("Parabola Graph")
+# plt.xlabel("x-axis")
+# plt.ylabel("y-axis")
+# print(plt.show())
 
 # 3.y=sin(x)graph;;
-x=np.linspace(-10,10,100)
-y=np.sin(x)
-print(plt.plot(x,y))
-print(plt.show())
+# x=np.linspace(-10,10,100)
+# y=np.sin(x)
+# print(plt.plot(x,y))
+# print(plt.show())
 
 # 4.y=xlog(x) graph;;
-x=np.linspace(-10,10,100)
-y=x*np.log(x)
-print(plt.plot(x,y))
-print(plt.show())
+# x=np.linspace(-10,10,100)
+# y=x*np.log(x)
+# print(plt.plot(x,y))
+# print(plt.show())
 
 # 5.SIGNOID GRAPH;;
-x=np.linspace(-10,10,100)
-y=1/(1+np.exp(-x))
-print(plt.plot(x,y))
-print(plt.show())
+# x=np.linspace(-10,10,100)
+# y=1/(1+np.exp(-x))
+# print(plt.plot(x,y))
+# print(plt.show())
